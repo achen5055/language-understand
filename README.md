@@ -140,8 +140,8 @@ python main.py
 
 启动后端服务后，可通过以下地址访问自动生成的API文档：
 
-- Swagger UI: http://localhost:9350/docs
-- ReDoc: http://localhost:9350/redoc
+- Swagger UI: http://localhost:8080/docs
+- ReDoc: http://localhost:8080/redoc
 
 ### 主要API端点
 
@@ -237,8 +237,8 @@ python main.py
 ### 后端开发
 
 1. 启动开发服务器：`python main.py`
-2. API服务地址：http://localhost:9350
-3. API文档：http://localhost:9350/docs
+2. API服务地址：http://localhost:8080
+3. API文档：http://localhost:8080/docs
 4. 开发模式支持自动重载
 
 ## 部署建议
@@ -271,13 +271,6 @@ python main.py
 ## 许可证
 
 [MIT License](LICENSE)
-
-## 联系方式
-
-如有问题或建议，请通过以下方式联系：
-
-- 项目仓库：<repository-url>
-- 维护者：<maintainer-contact>
 
 ## 致谢
 
